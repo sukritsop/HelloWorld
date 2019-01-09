@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "8da371fa-5c28-4096-b0fe-532605ce2efa",
+		"name": "TestHelloWorld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8088/HelloWorld-0.0.1-SNAPSHOT/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8088/HelloWorld-0.0.1-SNAPSHOT/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"HelloWorld-0.0.1-SNAPSHOT",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
